@@ -1,27 +1,24 @@
 # AthleteamsSocialMediaProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+Projet final Ifocop sur le thème du réseau social pour sportifs.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## État d'avancement du projet
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Le projet n'est pas fini.
 
-## Build
+Il n'y a que la page d’accueil et les formulaires de connection et d'inscription de fini.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Objectif du projet
 
-## Running unit tests
+Un reseau social pour que les sportifs puissent partager sur leur passion commune et leurs exploits
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Les fonctionnalités :
+ - Création et connection à son profil
+ - Poster sur le fil d'actualité
+ - Faire et recevoir des demandes d'ami
+ - Avoir un chat instantané
+ - Utiliser une messagerie privée
