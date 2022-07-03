@@ -16,7 +16,7 @@ Il n'y a que la page d’accueil et les formulaires de connection et d'inscripti
 
 Un reseau social pour que les sportifs puissent partager sur leur passion commune et leurs exploits
 
-Les fonctionnalités :
+Les fonctionnalités attendues:
  - Création et connection à son profil
  - Poster sur le fil d'actualité
  - Faire et recevoir des demandes d'ami
