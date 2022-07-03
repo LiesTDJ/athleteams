@@ -1,0 +1,17 @@
+<div id="nav-bar">
+  <div id="nav-bar-content">
+    <div id="nav-bar-left">
+      <div class="nav-bar-items">Athleteams</div>
+    </div>
+    <div id="nav-bar-right">
+      <div *ngIf="!loggedIn()" (click)="loginClick()" class="nav-bar-items">Se connecter</div>
+      <div *ngIf="loggedIn() && userHasProfile" class="nav-bar-items">Hello,  {{ userDocument.publicName }} </div>
+      <div *ngIf="loggedIn()" (click)="LogoutClick()" class="nav-bar-items">Se déconnecter</div>
+    </div>
+
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<app-profile [show]="loggedIn() && !userHasProfile"></app-profile>
